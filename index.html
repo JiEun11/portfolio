@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,15 +8,15 @@
     <title>Bella's Portfolio</title>
     <meta name="description" content="Portfolio for world-renowned software engineer Bella" />
     <meta name="author" content="Bella" />
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />    
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
     <script src="https://kit.fontawesome.com/3e595d06f7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
-    rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
+
 <body>
     <!-- Navbar -->
     <nav id="navbar">
@@ -34,12 +35,10 @@
             </ul>
         </div>
     </nav>
+    
     <!-- Home -->
     <section id="Home">
-        <img src="imgs/Bella.JPG" 
-        alt="Bella's profile photo" 
-        class="home__avatar"
-        />
+        <img src="imgs/Bella.JPG" alt="Bella's profile photo" class="home__avatar" />
         <h1 class="home__title">Hello, <br />I'm Dream Coder</h1>
         <h2 class="home__description">Full of inspiration</h2>
         <button class="home__button">Contact Me</button>
@@ -78,7 +77,7 @@
                 </div>
                 <div class="major__title">Data-Analysis</div>
                 <div class="major__description">
-                    Python, Machine Learning, Tensorflow, 
+                    Python, Machine Learning, Tensorflow,
                     <br />R, Weka, Excel
                 </div>
             </div>
@@ -164,12 +163,51 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Work -->
-    <section id="work"></section>
+    <section id="work">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+            <button class="category__btn">
+                All<span class="category__count">8</span>
+            </button>
+            <button class="category__btn">
+                Front-End<span class="category__count">3</span>
+            </button>
+            <button class="category__btn">
+                Back-End<span class="category__count">3</span>
+            </button>
+            <button class="category__btn">
+                Data-Analysis<span class="category__count">2</span>
+            </button>
+        </div>
+
+        <div class="work__projects">
+            <a href="https://github.com/JiEun11/portfolio" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/project1.png" alt="Youtube">
+                <div class="project__description">
+                    <h3>Youtube Site</h3>
+                    <span>Clone coding with HTML and CSS</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/JiEun11/portfolio" class="project" target="blank">
+                <img class="project__img" src="imgs/projects/project2.png" alt="mobile">
+                <div class="project__description">
+                    <h3>Application</h3>
+                    <span>Application with iOS</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
     <!-- Testimonials -->
-    <section id="testimonials"></section>
+    <section id="testimonials">
+
+    </section>
     <!-- Contact -->
     <section id="contact"></section>
 </body>
+
 </html>
