@@ -22,6 +22,20 @@ navbarMenu.addEventListener('click', (event)=>{
     return;
   }
   console.log(event.target.dataset.link);
-  const scrollTo = document.querySelector(link);
-  scrollTo.scrollIntoView({behavior: "smooth"});
+  // const scrollTo = document.querySelector(link);
+  // scrollTo.scrollIntoView({behavior: "smooth"});
+  scrollIntoView(link);
 });
+
+// Handle click on "contact me" button on home
+const homeContactMeBtn = document.querySelector('.home__contact');
+homeContactMeBtn.addEventListener('click',(event)=>{
+  // const scrollTo = document.querySelector('#contact');
+  // scrollTo.scrollIntoView({behavior: "smooth"});
+  scrollIntoView('#contact');
+});
+
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector);
+  scrollTo.scrollIntoView({behavior: "smooth"});
+}
