@@ -210,6 +210,8 @@ replay_pid*
 **/.DS_Store
 **/.AppleDouble
 **/.LSOverride
+imgs/.DS_Store
+.DS_Store
 
 # Icon must end with two \r
 **/Icon
@@ -266,3 +268,4 @@ backend/.mvn/wrapper/maven-wrapper.properties
 backend/mvnw
 backend/mvnw.cmd
 backend/src/main/resources/application.yaml
+
