@@ -316,7 +316,11 @@ p {
 
 /* Work */
 .work__categories {
-  margin: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2.5rem ;
 }
 
 .category__btn {
